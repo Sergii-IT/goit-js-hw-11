@@ -15,7 +15,7 @@ export async function fetchImages(query) {
       },
     });
 
-    return response.data.hits; // Повертаємо масив знайдених зображень
+    return response.data.hits; // Повертаю масив знайдених зображень
   } catch (error) {
     console.error("Помилка при отриманні зображень:", error);
     throw error;
